@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+  "useNx": true,
+  "useWorkspaces": true,
+  "version": "independent",
+  "npmClient": "pnpm",
+  "packages": [
+    "packages/*"
+  ],
+  "publishConfig": {
+    "registry": "http://81.70.86.202:4873/"
+  }
+}
