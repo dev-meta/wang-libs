@@ -38,7 +38,7 @@ export const Button = ({
   return (
     <button
       type="button"
-      className='px-[10px] bg-black text-red-300 hover:bg-pink-500'
+      className='px-[10px]  bg-black dark:bg-blue-500 text-red-300 hover:bg-pink-500 dark:text-green-500'
       style={{ backgroundColor }}
       {...props}
     >
