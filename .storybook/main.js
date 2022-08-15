@@ -17,6 +17,12 @@ module.exports = {
 	],
 	framework: '@storybook/react',
 	core: {
-		builder: '@storybook/builder-webpack5',
+		builder: {
+			name: '@storybook/builder-webpack5',
+			options: {
+				lazyCompilation: true,
+				fsCache: true,
+			},
+		},
 	},
 }
