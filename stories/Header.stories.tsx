@@ -21,5 +21,15 @@ LoggedIn.args = {
   },
 };
 
+LoggedIn.parameters = {
+  docs: {
+    source: {
+      type: 'auto',
+      code: `<Header />`, // 自定义展示文档中的代码
+      language: 'tsx'
+    }
+  }
+}
+
 export const LoggedOut = Template.bind({});
 LoggedOut.args = {};
