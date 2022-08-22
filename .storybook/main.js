@@ -24,5 +24,7 @@ module.exports = {
 				fsCache: true,
 			},
 		},
+		// 禁用上报
+		// disableTelemetry: true
 	},
 }
